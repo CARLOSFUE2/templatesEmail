@@ -1,0 +1,17 @@
+objetos que requiere el template: solicitudCliente.ejs
+
+client={ firstName:String, lastName:String, phone: Number, email:email},
+sections={ name:String, questions:[Objects]}[],
+question={nameQuestion:String, answerQuestions:String},
+
+objetos que requiere el template: respuesta.ejs
+client={ firstName:String, lastName:String, phone: Number, email:email},
+data={time}
+
+objetos que requiere el template: cotizacionDevsign.ejs
+client={ firstName:String, lastName:String, phone: Number, email:email},
+quotations={task:String, time: Date, price:String,}[],
+project={name:String, time: Date, price:String,}
+
+objetos que requiere el template:
+client={ firstName:String, lastName:String, phone: Number, email:email},

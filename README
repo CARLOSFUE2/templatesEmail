@@ -5,13 +5,23 @@ sections={ name:String, questions:[Objects]}[],
 question={nameQuestion:String, answerQuestions:String},
 
 objetos que requiere el template: respuesta.ejs
+
 client={ firstName:String, lastName:String, phone: Number, email:email},
 data={time}
+textmain
 
 objetos que requiere el template: cotizacionDevsign.ejs
+
 client={ firstName:String, lastName:String, phone: Number, email:email},
 quotations={task:String, time: Date, price:String,}[],
 project={name:String, time: Date, price:String,}
 
-objetos que requiere el template:
+objetos que requiere el template: agradecimiento.ejs
 client={ firstName:String, lastName:String, phone: Number, email:email},
+
+
+objetos que requiere el template: contacto.ejs
+
+ client={ firstName:String, lastName:String, phone: Number, email:email},
+data={time}
+textmain
